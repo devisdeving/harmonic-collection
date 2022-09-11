@@ -2,46 +2,45 @@ html, body {
 background-color: #ffffff;
 }
 
-#inde {
-    font-family: 'Art-Dystopia', sans-serif;
+h1 span {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #3d47ff;
+    font-weight: 400;
+    line-height: 1.3em;
+
 }
 
-.herodiv {
+.block {
+    background-color: #e7e7e7;
+    border-radius: 0.4em;
+    height:250px;
+}
+
+.hero {
     line-height: 0.8;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #e8d3c7;
-    border-radius: 0.5em;
-    height: 300px;
 }
 
 #hero-text {
     font-family: 'Space Grotesk', sans-serif;
-    font-weight: 400;
     color:#6e3910 ;
     font-size: 2em;
-    padding: 50px;
-    min-width: 10vw;
+    padding: 20px;
 }
 
 .headers {
     font-family: 'Space Grotesk', sans-serif;
-    font-weight: 400;
     font-size: 1.5em;
     margin: 50px;
 }
 
 .highlight {
-    background-color: #005AEB;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eeeeff;
+    border-radius: 0.2em;
+    height: 60px;
+    max-width: 265px;
+    margin-top: -140px;
+    margin-left: -10px;
 }
 
-h1 {
-   color: #ffdff3;
-   line-height: 0.01em;
-}
-
-p {
-    font-family: "ibm plex mono", monospace;
-    font-weight: 400;
-    color: #005AEB;
-}
