@@ -1,7 +1,16 @@
-.heading {
-    font-family: 'DynaPuff', cursive;
+@font-family {
+    font-family: 'belkis-skew';
+    src: url('..e1-fonts/Belkis-Skew.otf')
+}
+
+html, body {
+background-color: #ffffff;
+}
+
+#hero-text {
+    font-family: 'belkis-skew' , sans-serif;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 15px;
     padding: 50px;
 }
 
@@ -11,13 +20,11 @@
 }
 
 h1 {
-   color: antiquewhite;
+   color: #1b1b1b;
 }
 
 p {
     font-family: "ibm plex mono", monospace;
     font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    color: antiquewhite;
+    color: #005AEB;
 }
