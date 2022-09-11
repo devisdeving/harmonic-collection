@@ -1,26 +1,43 @@
-@font-family {
-    font-family: 'belkis-skew';
-    src: url('..e1-fonts/Belkis-Skew.otf')
-}
-
 html, body {
 background-color: #ffffff;
 }
 
+#inde {
+    font-family: 'Art-Dystopia', sans-serif;
+}
+
+.herodiv {
+    line-height: 0.8;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e8d3c7;
+    border-radius: 0.5em;
+    height: 300px;
+}
+
 #hero-text {
-    font-family: 'belkis-skew' , sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    color:#6e3910 ;
+    font-size: 2em;
     padding: 50px;
+    min-width: 10vw;
+}
+
+.headers {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: 50px;
 }
 
 .highlight {
     background-color: #005AEB;
-    padding: 20 50px;
 }
 
 h1 {
-   color: #1b1b1b;
+   color: #ffdff3;
+   line-height: 0.01em;
 }
 
 p {
