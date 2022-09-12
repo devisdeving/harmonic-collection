@@ -3,7 +3,23 @@ max-width: 960px;
 margin: auto;
 }
 
-h1 span {
+/*
+#stickyheaddiv {
+ background-color: #f654ff;
+margin-top: -20px;
+width: 1800px;
+align-content: center;
+height: 50px;
+margin-left: -480px;
+}
+
+#stickyhead {
+    color: #c7d411;
+margin-top: -25px;
+overflow: 
+}
+*/
+span {
     font-family: 'Space Grotesk', sans-serif;
     color: #3d47ff;
     font-weight: 400;
@@ -13,18 +29,25 @@ h1 span {
 .info-block {
     background-color: #eeeeff;
     border-radius: 0.8em;
-    height:250px;
+    height:260px;
+    width:480px;
     margin-left: 20px;
     margin-right: 20px;
+    overflow:visible;
+    margin-top:-30px;
+}
+
+.footer {
+    height: 240px;
 }
 
 p {
     font-family: 'ibm-plex-mono', monospace;
-    padding: 25px;
+    padding: 15px 25px;
     color:#3d47ff;
 }
 
-i {
+h2 span {
     color:#f654ff;
 }
 
@@ -48,6 +71,7 @@ h2 {
 .hero {
     line-height: 0.8;
     width: 960px;
+    margin-top: -20px;
 }
 
 #hero-text {
