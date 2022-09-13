@@ -4,7 +4,7 @@ margin: auto;
 }
 
 
-#stickyheaddiv {
+.stickydiv {
     background-color: #fee6ff;
     width:auto;
     height: 30px;
@@ -22,6 +22,18 @@ margin: auto;
     margin-top: -13px;
 }
 
+#stickyfooter {
+    margin: 30px auto;
+    width:max-content;
+text-align: center;
+margin-bottom: -10px;
+}
+
+#stickyfootertext {
+    color: #f654ff;
+    margin-top: -13px;
+}
+
 span {
     font-family: 'Space Grotesk', sans-serif;
     color: #2d53ff;
@@ -32,7 +44,7 @@ span {
 .info-block {
     background-color: #eeeeff;
     border-radius: 0.8em;
-    height:240px;
+    height:max-content;
     width:540px;
     margin-left: 20px;
     margin-right: 20px;
@@ -72,6 +84,7 @@ h2 {
 
 .info-div {
     margin-top:-150px;
+    height: max-content;
 }
 
 .wavy {
@@ -84,15 +97,13 @@ h2 {
 
 .hero {
     line-height: 0.8;
-    width: 960px;
-    margin-top: -20px;
-    margin-bottom: -50px;
+    margin: -20px 20px -40px -40px;
 }
 
 #hero-text {
     font-family: 'Space Grotesk', sans-serif;
     color:#c7d411;
-    font-size: 4em;
+    font-size: 8em;
     padding-left: 40px;
 }
 
@@ -106,9 +117,9 @@ h2 {
     display: flex;
     background-color: #eeeeff;
     border-radius: 0.8em;
-    height: 120px;
-    width: 530px;
-    margin-top: -280px;
+    height: 200px;
+    width: 1030px;
+    margin-top: -695px;
     margin-left: 20px;
 }
 
@@ -118,24 +129,27 @@ h2 {
 }
 
 #heroimg1 {
-height: 500px;
+height: 520px;
 margin-left: -400px;
-margin-top: 100px;
+margin-top:55px;
 }
 
 #heroimg2 {
     height: 300px;
-    margin-right:-100px;
+    margin-top: 120px;
+    margin-bottom: -420px;
+    margin-left:600px;
 }
 
 #heroimg3 {
-    width: 600px;
-    margin: 100px;
+    width: 390px;
+    margin-top: -330px;
+    margin-left:530px;
 }
 
 #info-div-1 {
     margin-left:360px;
-    margin-top: 10px;
+    margin-top: 400px;
 }
 
 #info-div-2 {
@@ -143,9 +157,15 @@ margin-top: 100px;
 }
 
 #info-div-3 {
-    margin-left:360px;
+    margin-right:360px;
+    margin-left: -60px;
+}
+
+.subtext {
+    color:#d0d0d0;
+    font-size: small
 }
 
 .footer {
-    height: 120px;
+    height: 40px;
 }
