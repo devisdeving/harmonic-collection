@@ -1,0 +1,92 @@
+.head {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'space grotesk';
+}
+
+h2 {
+    font-family: 'ibm plex mono';
+    font-size: 12pt;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'ibm plex mono';
+    color: rgb(215, 215, 215);
+    margin-top: 230px;
+    padding: 10px;
+}
+
+.text {
+    text-align: center;
+    height: auto;
+}
+
+.text :nth-child(1) {
+color: hsl(197, 100%, 73%);
+font-family: amador,sans-serif;
+font-size: 24pt;
+line-height: 10px;
+}
+
+.text :nth-child(2) {
+    color: rgb(255, 87, 238);
+    font-family: bookmania,serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20pt;
+    line-height: 20px;
+}
+
+.text :nth-child(3) {
+    color: #daff37;
+    color: #16795e;
+    font-size: 20pt;
+    line-height: 10px;
+}
+
+.text :nth-child(4) {
+    color: #a45d31;
+    font-family: lust-didone-fine,sans-serif;
+    font-size: 18pt;
+    line-height: 40px;
+}
+
+.text :nth-child(5) {
+    color: #b395ff;
+    font-family: ff-folk-rough,sans-serif;
+    font-size: 14pt;
+    line-height: 10px;
+
+}
+
+.text :nth-child(6) {
+    color: #ff7520;
+    font-family: nautica,sans-serif;
+    font-size: 30pt;
+    line-height: 5px;
+}
+
+.text :nth-child(7) {
+    color: #77ff90;
+    font-family: 'Rozha One', serif;
+    font-size: 20pt;
+    line-height: 20px;
+}
+
+.text :nth-child(8) {
+    color: #588fff;
+    font-family: campaign-serif,sans-serif;
+    font-size: 20pt;
+    line-height: 10px;
+}
+
+.text :nth-child(9) {
+    color: #bc49ff;
+    font-family: 'Creepster', cursive;
+    font-size: 20pt;
+    line-height: 40px;
+}
