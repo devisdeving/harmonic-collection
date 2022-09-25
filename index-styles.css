@@ -1,8 +1,19 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
 body {
+    margin: 0 auto;
     text-align: center;
     font-family: 'ibm plex mono';
+}
+
+.stickyhead {
+    position: sticky;
 }
 
 a {
     text-decoration: none;
 }
+
