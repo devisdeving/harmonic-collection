@@ -5,15 +5,30 @@
 
 body {
     margin: 0 auto;
+    background-color: #60ff26;
 }
 
 p {
     font-family: 'space grotesk';
+    opacity: 30%;
+    padding-top: 1em;
+    font-size: 2em;
+}
+
+body > p {
+    padding: 1em;
+    text-align: right;
+}
+
+.pill > p {
+    opacity: 100%;
+    padding-top: 0em;
+    position: sticky;
 }
 
 div {
     padding-top: 1em;
-    padding-bottom: 6em;
+    padding-bottom: 2em;
     padding-right:1em;
     padding-left:1em;
     border-radius:1em;
