@@ -8,14 +8,14 @@ body {
 }
 
 div {
-    border-radius: .45em;
+    border-radius: .35em;
     font-family: 'EDNimpkish-Regular', Helvetica, Arial, Sans-Serif;
     font-size: 1.5em;
     padding:0.7em;
     line-height: 1em;
     text-align: center;
     margin: 0.2em 0.2em;
-    overflow-wrap: break-word;
+    overflow-wrap:break-word;
 }
 
 .cont {
@@ -75,15 +75,19 @@ div {
 }
 
 .cont > div:nth-child(14) {
+    background-color: rgb(255, 74, 19);
+}
+
+.cont > div:nth-child(15) {
     background-color: #ffffff;
 }
 
 @media (min-width:360px) {
     .cont {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 33% 33% 34%;
         grid-column-gap: 0.1em;
-        font-size: 1.2em;
+        font-size:1.8em;
     }
 
 }
@@ -91,7 +95,7 @@ div {
 @media (min-width:720px) {
     .cont {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 33% 33% 34%;
         grid-column-gap: 0.1em;
         font-size: 2em;
     }
