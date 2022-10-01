@@ -10,7 +10,7 @@ body {
 div {
     border-radius: .35em;
     font-family: 'EDNimpkish-Regular', Helvetica, Arial, Sans-Serif;
-    font-size: 1.5em;
+    font-size: 1.8em;
     padding:0.7em;
     line-height: 1em;
     text-align: center;
@@ -82,17 +82,17 @@ div {
     background-color: #ffffff;
 }
 
-@media (min-width:360px) {
+@media (min-width:680px) {
     .cont {
         display: grid;
         grid-template-columns: 33% 33% 34%;
         grid-column-gap: 0.1em;
-        font-size:1.8em;
+        font-size:1.2em;
     }
 
 }
 
-@media (min-width:720px) {
+@media (min-width:780px) {
     .cont {
         display: grid;
         grid-template-columns: 33% 33% 34%;
