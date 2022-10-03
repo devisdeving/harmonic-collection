@@ -17,7 +17,7 @@ div {
     border-radius: .35em;
     font-family: 'EDNimpkish-Regular', Helvetica, Arial, Sans-Serif;
     font-size: 1.8em;
-    padding:0.7em;
+    padding:0.4em;
     line-height: 1em;
     text-align: center;
     margin: 0.2em 0.2em;
@@ -161,6 +161,11 @@ div {
 
     .cont > div:nth-child(2), .cont > div:nth-child(3) {
         padding: 0.4em 0.5em;
+    }
+
+    .footer {
+        height: 600px;
+        width: auto;
     }
 
 }
