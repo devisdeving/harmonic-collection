@@ -3,6 +3,11 @@
     padding:0;
 }
 
+@font-face {
+	font-family: 'EDNimpkish-Regular';
+	src: url('/Users/DVMKKR/Downloads/Parsons Sophomore CD Fall 2022/Core 1 Interaction/harmonic-collection/ENTRY-4/webfonts/ed-nimpkish-regular.woff2') format('woff2');
+}
+
 body {
     margin: 0 auto;
 }
@@ -98,6 +103,16 @@ div {
         grid-template-columns: 33% 33% 34%;
         grid-column-gap: 0.1em;
         font-size: 2em;
+    }
+
+}
+
+@media (min-width:960px) {
+    .cont {
+        display: grid;
+        grid-template-columns: 33% 33% 34%;
+        grid-column-gap: 0.1em;
+        font-size: 1.8em;
     }
 
 }
