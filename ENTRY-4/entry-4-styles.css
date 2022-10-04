@@ -6,11 +6,12 @@
 
 @font-face {
 	font-family: 'EDNimpkish-Regular';
-	src: url('/Users/DVMKKR/Downloads/Parsons Sophomore CD Fall 2022/Core 1 Interaction/harmonic-collection/ENTRY-4/webfonts/ed-nimpkish-regular.woff2') format('woff2');
+	src: url('https://drive.google.com/file/d/1TGxf5NUC3VnuoyJ03pH1aJMcqy4a4LT3/view?usp=sharing') format('woff2');
 }
 
 body {
     margin: 0 auto;
+    min-width: 160px;
 }
 
 div {
@@ -30,6 +31,7 @@ div {
 
 .doi {
     background-color: #ffffff;
+    margin-top: 3em;
 }
 
 .cont > div:nth-child(2) {
@@ -121,8 +123,17 @@ div {
         width: 80%;
     }
 
+    .doi, .cont > div:nth-child(15) {
+        font-size: 3vw;
+        padding-top: 2em;
+    }
+
+    .cont > div:nth-child(15) {
+        padding-top: 1em;
+    }
+
     .doi {
-        font-size: 1.8em;
+        margin-top: 0em;
     }
 
 }
@@ -140,23 +151,34 @@ div {
         padding-top: 0.4em;
     }
 
+    .doi, .cont > div:nth-child(15) {
+        font-size: 3vw;
+        padding-top: 2em;
+        margin-top: 1em;
+    }
+
     div {
     height: 12vw;
-}
+    }
 
+    .footer {
+        height: 600px;
+        width: auto;
+    }
 }
 
 @media (min-width:964px) {
     .cont {
         display: grid;
         grid-template-columns: 33% 33% 34%;
-        grid-column-gap: 0.1em;
+        grid-column-gap: 0.05em;
         font-size: 3vw;
     }
 
     .doi, .cont > div:nth-child(15) {
         font-size: 3vw;
         padding-top: 2em;
+        margin-top: 1em;
     }
 
     .cont > div:nth-child(2), .cont > div:nth-child(3) {
