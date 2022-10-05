@@ -6,7 +6,9 @@
 
 @font-face {
 	font-family: 'EDNimpkish-Regular';
-	src: url('https://drive.google.com/file/d/1TGxf5NUC3VnuoyJ03pH1aJMcqy4a4LT3/view?usp=sharing') format('woff2');
+	src: url('ed-nimpkish-regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
 }
 
 body {
@@ -16,7 +18,7 @@ body {
 
 div {
     border-radius: .35em;
-    font-family: 'EDNimpkish-Regular', Helvetica, Arial, Sans-Serif;
+    font-family: 'EDNimpkish-Regular','serif';
     font-size: 1.8em;
     padding:0.4em;
     line-height: 1em;
