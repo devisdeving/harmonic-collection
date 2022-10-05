@@ -13,6 +13,14 @@ body {
     position: sticky;
 }
 
+p {
+    margin-top: 0.4em;
+}
+
+div:not(.stickyhead) {
+    margin: 2em auto;
+}
+
 a {
     text-decoration: none;
 }
