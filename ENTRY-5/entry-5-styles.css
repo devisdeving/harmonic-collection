@@ -74,6 +74,50 @@
     background-color: rgb(255, 74, 19);
 }
 
+.container > div:nth-child(27) {
+    background-color: #0fa162;
+}
+
+.container > div:nth-child(29) {
+    background-color: #0d9aff;
+}
+
+.container > div:nth-child(31) {
+    background-color: #cbe810;
+}
+
+.container > div:nth-child(33) {
+    background-color: #ff48e7;
+}
+
+.container > div:nth-child(35) {
+    background-color: #b1bbff;
+}
+
+.container > div:nth-child(37) {
+    background-color: rgb(255, 74, 19);
+}
+
+.container > div:nth-child(37) {
+    background-color: #0fa162;
+}
+
+.container > div:nth-child(39) {
+    background-color: #0d9aff;
+}
+
+.container > div:nth-child(41) {
+    background-color: #cbe810;
+}
+
+.container > div:nth-child(43) {
+    background-color: #ff48e7;
+}
+
+.container > div:nth-child(45) {
+    background-color: #b1bbff;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -106,7 +150,7 @@ header, footer {
 
 .container div:nth-child(odd) {
     color:aliceblue;
-    margin: 0 auto;
+    margin: 0.2em auto;
     padding: 0.5em 0.5em;
     border-radius: var(--border-radius);
     width: fit-content;
@@ -158,8 +202,8 @@ header, footer {
         font-family: var(--font-family);
         font-size: var(--font-size);
         letter-spacing: -1px;
-        /* justify-content: space-between;
-        align-items: center; */
+        align-items: center;
+        justify-content: center;
     }
 
     .container {
@@ -182,5 +226,32 @@ header, footer {
 }
 
 @media (min-width:964px) {
+    body {
+        display: flex;
+        margin: 1.2em auto;
+        font-family: var(--font-family);
+        font-size: var(--font-size);
+        letter-spacing: -1px;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .container {
+        display: flex;
+        flex-direction: row;
+        row-gap: 0.5em;
+        flex-wrap:wrap;
+        height: 150vh;
+        width: 75vw;
+    }
+
+    .container div:nth-child(odd) {
+        font-size: 37px;
+        line-height: 0.8em;
+    }
+
+    .tb {
+        margin:auto 0;
+        line-height: 1.2em;
+    }
 }
