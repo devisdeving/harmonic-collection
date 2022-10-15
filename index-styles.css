@@ -13,12 +13,28 @@ body {
     position: sticky;
 }
 
-p {
-    margin-top: 0.4em;
+.container {
+    display:grid;
+grid-template-columns: repeat(2, 1fr);
 }
 
-div:not(.stickyhead) {
-    margin: 2em auto;
+.caption {
+    color: rgb(140, 140, 140);
+    margin-top: -20px;
+}
+
+p {
+    padding: 0.6em;
+}
+
+.container div {
+    background-color: #ffffff;
+    margin: 1em 0.4em;
+    margin-top: 0.5em;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1em;
 }
 
 a {
