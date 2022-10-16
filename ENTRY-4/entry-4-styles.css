@@ -27,6 +27,18 @@ div {
     overflow-wrap:break-word;
 }
 
+footer {
+    display: flex;
+    font-family: 'space grotesk';
+    justify-content: space-between;
+    font-size: 0.5em;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(195, 195, 195);
+}
+
 .cont {
     margin: 0 auto;
 }
