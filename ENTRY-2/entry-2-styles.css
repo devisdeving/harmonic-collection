@@ -5,6 +5,8 @@
 
 h1 {
     font-family: 'space grotesk';
+    line-height: 25px;
+    letter-spacing: -0.8px;
 }
 
 h2 {
@@ -12,29 +14,35 @@ h2 {
     font-size: 12pt;
 }
 
-footer p {
-    text-align: center;
-    font-family: 'ibm plex mono';
-    color: rgb(215, 215, 215);
-    margin-top: 230px;
-    padding: 10px;
+footer {
+    display: flex;
+    font-weight: lighter;
+    font-family: 'space grotesk';
+    justify-content: space-between;
+    font-size: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(195, 195, 195);
 }
 
 .text {
     text-align: center;
-    height: auto;
+    line-height: 3em;
+
 }
 
 .text :nth-child(1) {
 color: hsl(197, 100%, 73%);
-font-family: amador,sans-serif;
+font-family: 'amador',sans-serif;
 font-size: 24pt;
-line-height: 10px;
+line-height: 20px;
 }
 
 .text :nth-child(2) {
     color: rgb(255, 87, 238);
-    font-family: bookmania,serif;
+    font-family: 'bookmania',serif;
     font-weight: 700;
     font-style: italic;
     font-size: 20pt;
@@ -42,51 +50,50 @@ line-height: 10px;
 }
 
 .text :nth-child(3) {
-    color: #daff37;
     color: #16795e;
     font-size: 20pt;
-    line-height: 10px;
+    line-height: 20px;
 }
 
 .text :nth-child(4) {
     color: #a45d31;
-    font-family: lust-didone-fine,sans-serif;
+    font-family: 'lust-didone-fine',sans-serif;
     font-size: 18pt;
-    line-height: 40px;
+    line-height: 20px;
 }
 
 .text :nth-child(5) {
     color: #b395ff;
-    font-family: ff-folk-rough,sans-serif;
+    font-family: 'ff-folk-rough',sans-serif;
     font-size: 14pt;
-    line-height: 10px;
+    line-height: 20px;
 
 }
 
 .text :nth-child(6) {
     color: #ff7520;
-    font-family: nautica,sans-serif;
+    font-family: 'nautica',sans-serif;
     font-size: 30pt;
-    line-height: 5px;
+    line-height: 30px;
 }
 
 .text :nth-child(7) {
     color: #77ff90;
     font-family: 'Rozha One', serif;
     font-size: 20pt;
-    line-height: 20px;
+    line-height: 30px;
 }
 
 .text :nth-child(8) {
     color: #588fff;
-    font-family: campaign-serif,sans-serif;
+    font-family: 'campaign-serif',sans-serif;
     font-size: 20pt;
-    line-height: 10px;
+    line-height: 30px;
 }
 
 .text :nth-child(9) {
     color: #bc49ff;
     font-family: 'Creepster', cursive;
     font-size: 20pt;
-    line-height: 40px;
+    line-height: 30px;
 }
