@@ -20,6 +20,23 @@ body > p {
     text-align: right;
 }
 
+footer {
+    display: flex;
+    font-family: 'space grotesk';
+    justify-content: space-between;
+    font-size: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 2em;
+margin-top: -20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(131, 131, 131);
+    opacity: 100%;
+}
+
 .pill > p {
     opacity: 100%;
     padding-top: 0em;
