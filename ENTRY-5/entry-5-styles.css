@@ -127,8 +127,22 @@ body {
     letter-spacing: -1px;
 }
 
-header, footer {
+header, .tb {
     padding: 1.2em;
+}
+
+footer {
+    display: flex;
+    font-family: 'space grotesk';
+    justify-content: space-between;
+    font-size: 0.7em;
+    letter-spacing: 0px;
+    padding: 2em;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(195, 195, 195);
 }
 
 .tb {
@@ -177,8 +191,6 @@ header, footer {
     }
 
     body {
-        display: flex;
-        flex-direction: column;
         margin: 0 auto;
         font-family: var(--font-family);
         font-size: var(--font-size);
@@ -197,7 +209,6 @@ header, footer {
 
 @media (min-width:680px) {
     body {
-        display: flex;
         margin: 1.2em auto;
         font-family: var(--font-family);
         font-size: var(--font-size);
