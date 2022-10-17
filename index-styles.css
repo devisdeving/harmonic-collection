@@ -71,6 +71,24 @@ a {
     color:aliceblue;
 }
 
+.container div:hover {
+    border-radius: 4em;
+    transition: all 0.05s ease-in-out;
+    font-style:italic;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.caption {
+    font-family: 'space grotesk';
+    font-style: normal;
+}
+
+/* p:not(.caption):hover {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    transition: all 0.05s ease-in-out;
+} */
+
 .caption {
     display: block;
     color: #0000007d;
