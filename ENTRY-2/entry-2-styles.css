@@ -20,28 +20,49 @@ footer {
     font-family: 'space grotesk';
     justify-content: space-between;
     font-size: 1em;
+    font-style:normal;
+    border: none;
 }
 
 footer a {
     text-decoration: none;
     color: rgb(195, 195, 195);
+    font-style:normal;
+    border: none;
 }
+
+footer p {
+    border: none;
+    font-style:normal;
+}
+
+p {
+    border-radius: 50%;
+    padding: 1em;
+    color: aliceblue;
+}
+
+.text p:hover {
+font-size: 4em;
+line-height: 0.8em;
+transition: all 0.05s ease-in-out;
+}
+
 
 .text {
     text-align: center;
     line-height: 3em;
-
 }
 
 .text :nth-child(1) {
-color: hsl(197, 100%, 73%);
+background-color: #ff4a13;
 font-family: 'amador',sans-serif;
 font-size: 24pt;
 line-height: 20px;
 }
 
 .text :nth-child(2) {
-    color: rgb(255, 87, 238);
+    background-color: #0fa162;
     font-family: 'bookmania',serif;
     font-weight: 700;
     font-style: italic;
@@ -50,20 +71,20 @@ line-height: 20px;
 }
 
 .text :nth-child(3) {
-    color: #16795e;
+    background-color: #0d9aff;
     font-size: 20pt;
     line-height: 20px;
 }
 
 .text :nth-child(4) {
-    color: #a45d31;
+    background-color: #cbe810;
     font-family: 'lust-didone-fine',sans-serif;
     font-size: 18pt;
     line-height: 20px;
 }
 
 .text :nth-child(5) {
-    color: #b395ff;
+    background-color: #ff48e7;
     font-family: 'ff-folk-rough',sans-serif;
     font-size: 14pt;
     line-height: 20px;
@@ -71,28 +92,28 @@ line-height: 20px;
 }
 
 .text :nth-child(6) {
-    color: #ff7520;
+    background-color: #b1bbff;
     font-family: 'nautica',sans-serif;
     font-size: 30pt;
-    line-height: 30px;
+    line-height: 10px;
 }
 
 .text :nth-child(7) {
-    color: #77ff90;
+    background-color: #ff4a13;
     font-family: 'Rozha One', serif;
     font-size: 20pt;
     line-height: 30px;
 }
 
 .text :nth-child(8) {
-    color: #588fff;
+    background-color: #0fa162;
     font-family: 'campaign-serif',sans-serif;
     font-size: 20pt;
     line-height: 30px;
 }
 
 .text :nth-child(9) {
-    color: #bc49ff;
+    background-color: #0d9aff;
     font-family: 'Creepster', cursive;
     font-size: 20pt;
     line-height: 30px;
