@@ -41,6 +41,7 @@ h2 {
     border-radius: 50%;
     border-style: solid;
     padding: 0.5em;
+    width: fit-content;
 }
 
 p {
@@ -94,22 +95,22 @@ h2 span {
     border-radius: 50%;
 }
 
-footer {
-    color: #f654ff;
+.end {
+    color: #000000;
     border-radius: 50%;
     border-style: solid;
 }
 
-footer div p {
+.end p {
     padding: 1em 2em;
     line-height: 1em;
     font-size: 14px;
     opacity: 100%;
 }
 
-footer div a {
+.end a {
     font-weight: bold;
-    color: #000000;
+    color: #f654ff;
     border-radius: 50%;
     border-style: solid;
     padding: 0.2em;
@@ -118,6 +119,19 @@ footer div a {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    margin: 0 1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(131, 131, 131);
+    opacity: 100%;
 }
 
 @media (min-width: 768px) {
@@ -130,6 +144,19 @@ a {
 
     h2 {
         font-size: 32px;
+    }
+}
+
+@media (min-width: 960px) {
+    .hero {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 42px;
     }
 }
 
