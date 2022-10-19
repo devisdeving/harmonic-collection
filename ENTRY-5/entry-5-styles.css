@@ -6,7 +6,7 @@
 :root {
     --font-family: 'space grotesk';
     --font-size: 20px;
-    --border-radius:15px;
+    --border-radius:50%;
     --line-height: 24px;
 }
 
@@ -18,8 +18,10 @@
 }
 
 .or {
-    background-color: rgb(242, 242, 242);
     height: fit-content;
+    border-radius: 100%;
+    border-style: solid;
+
 }
 
 .container > div:nth-child(1) {
@@ -164,7 +166,7 @@ footer a {
 
 .container div:nth-child(odd) {
     color:aliceblue;
-    margin: 0.2em auto;
+    margin: 0em auto;
     padding: 0.5em 0.5em;
     border-radius: var(--border-radius);
     width: fit-content;
@@ -187,7 +189,7 @@ footer a {
     :root {
         --font-family: 'space grotesk';
         --font-size: 27px;
-        --border-radius:20px;
+        --border-radius:50%;
     }
 
     body {
@@ -220,7 +222,6 @@ footer a {
     .container {
         display: flex;
         flex-direction: row;
-        row-gap: 0.5em;
         flex-wrap:wrap;
         height: 600px;
     }
