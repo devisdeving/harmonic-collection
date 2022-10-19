@@ -141,8 +141,8 @@ a {
 }
 
 .header {
-    line-height: var(--line-height);
-    font-size: var(--font-size);
+    line-height: 1.8em;
+    font-size: 1em;
     border-radius: 50%;
 }
 
