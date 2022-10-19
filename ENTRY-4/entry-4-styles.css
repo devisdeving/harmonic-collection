@@ -40,10 +40,6 @@ footer a {
     color: rgb(195, 195, 195);
 }
 
-div:hover {
-    color: aliceblue;
-}
-
 .cont {
     margin: 0 auto;
 }
