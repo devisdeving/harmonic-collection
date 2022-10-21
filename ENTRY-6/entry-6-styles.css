@@ -29,4 +29,153 @@
     font-size: var(--font-size);
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    font-family: var(--list-font);
+    grid-auto-flow:dense;
+    /* grid-template-areas: 
+    "#8 #7 #8 #3"
+    "#5 #1 #1 #4"
+    "#3 #1 #1 #9"
+    "#4 #2 #6 #5"; */
+}
 
+.grid div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size);
+}
+
+.grid div:nth-child(1) {
+    text-align: center;
+    background-color:#1284ff;
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+    grid-column: span 4;
+    font-size: var(--font-size);
+    padding: 2em;
+}
+
+.grid div:nth-child(2) {
+    text-align: center;
+    padding: 1em;
+    overflow-wrap: break-word;
+    background-color:#ff12d0;
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+    grid-column: span 3;
+    font-size: var(--font-size);
+    padding: 2em;
+}
+
+.grid div:nth-child(3) {
+    text-align: center;
+    padding: 1em;
+    overflow-wrap: break-word;
+    background-color:#dbff12;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    grid-column: span 2;
+    font-size: var(--font-size);
+    padding: 2em;
+}
+
+.grid div:nth-child(4) {
+    text-align: center;
+    padding: 1em;
+    overflow-wrap: break-word;
+    background-color:#ff4912;
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    font-size: var(--font-size);
+    padding: 2em;
+    margin-left: -50px;
+    margin-top: -27px;
+}
+
+.grid div:nth-child(5) {
+    text-align: center;
+    padding: 1em;
+    overflow-wrap: break-word;
+    background-color:#1eff12;
+    border-radius: 50%;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.grid div:nth-child(6) {
+    text-align: center;
+    padding: 1em;
+    overflow-wrap: break-word;
+    background-color:#d6abff;
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+}
+
+.grid div:nth-child(7) {
+    text-align: center;
+    padding: 1em;
+    overflow-wrap: break-word;
+    background-color:#95b9ff;
+    border-radius: 50%;
+    width: 0.6em;
+    height: 0.6em;
+    font-size: large;
+    padding: 2em;
+}
+
+.grid div:nth-child(8) {
+    text-align: center;
+    padding: 1em;
+    overflow-wrap: break-word;
+    background-color:#206757;
+    border-radius: 50%;
+    width: 0.6em;
+    height: 0.6em;
+    font-size: medium;
+    padding: 2.5em;
+}
+
+.grid div:nth-child(9) {
+    text-align: center;
+    padding: 1em;
+    overflow-wrap: break-word;
+    background-color:#d622ff;
+    border-radius: 50%;
+    width: 0.3em;
+    height: 0.3em;
+    font-size: medium;
+    padding: 3em;
+}
+
+.grid div:nth-child(10) {
+    text-align: center;
+    padding: 1em;
+    overflow-wrap: break-word;
+    background-color:#ffbaf9;
+    border-radius: 50%;
+    width: 0.1em;
+    height: 0.1em;
+    font-size: medium;
+    padding: 2em;
+}
+
+.bib {
+    color: rgb(201, 201, 201);
+    font-size: 0.8em;
+    text-align: center;
+    margin: 1em 1em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
