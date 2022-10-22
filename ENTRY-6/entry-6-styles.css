@@ -143,6 +143,21 @@ text-align: center;
     margin: 1em 1em;
 }
 
+footer {
+    display: flex;
+    font-family: 'space grotesk';
+    justify-content: space-between;
+    font-size: 0.7em;
+    letter-spacing: 0px;
+    padding: 2em;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(195, 195, 195);
+    font-weight: normal;
+}
+
 a {
     text-decoration: none;
     color: inherit;
