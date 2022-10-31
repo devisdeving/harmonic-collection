@@ -139,6 +139,22 @@
         font-size: 0.8em;
         line-height: 1em;
     }
+
+    .clothes:nth-child(1) {
+        background-color:#1bff45;
+    }
+    
+    .clothes:nth-child(3) {
+        background-color:#ff12df;
+    }
+    
+    .clothes:nth-child(7) {
+        background-color:#acff12;
+    }
+    
+    .clothes:nth-child(12) {
+        background-color:#ddaaff;
+    }
 }
 
 @media(min-width: 960px) {
@@ -149,12 +165,81 @@
     }
 
     .clothes {
-        font-size: 6em;
+        font-size: 7em;
+    }
+
+    .clothes div {
+        margin: 0 auto;
+        width: 100vw;
     }
 
     .doubt {
         font-size: 1em;
         line-height: 1em;
+    }
+
+    .doubt:last-child {
+        grid-column: span 4;
+    }
+    
+    .doubt:nth-child(2) {
+        grid-column: span 4;
+    }
+    
+    .doubt:nth-child(4) {
+        grid-column: span 5;
+    }
+    
+    .doubt:nth-child(5) {
+        grid-column: span 6;
+    }
+    
+    .doubt:nth-child(6) {
+        grid-column: span 3;
+    }
+    
+    .doubt:nth-child(8) {
+        grid-column: span 3;
+    }
+    
+    .doubt:nth-child(9) {
+        grid-column: span 5;
+    }
+    
+    .doubt:nth-child(10) {
+        grid-column: span 4;
+    }
+    
+    .doubt:nth-child(11) {
+        grid-column: span 3;
+    }
+    
+    .doubt:nth-child(13) {
+        grid-column: span 3;
+    }
+    
+    .doubt:nth-child(14) {
+        grid-column: span 3;
+    }
+    
+    .clothes:nth-child(1) {
+        background-color:#9861ff;
+        grid-column: span 5;
+    }
+    
+    .clothes:nth-child(3) {
+        background-color:#12a4ff;
+        grid-column: span 4;
+    }
+    
+    .clothes:nth-child(7) {
+        background-color:#ffc012;
+        grid-column: span 6;
+    }
+    
+    .clothes:nth-child(12) {
+        background-color:#ff3d23;
+        grid-column: span 5;
     }
 }
 
