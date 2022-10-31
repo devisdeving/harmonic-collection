@@ -126,6 +126,38 @@
     background-color:#ff52f6;
 }
 
+@media(min-width: 768px) {
+    .grid {
+        height: 80vw;
+    }
+
+    .clothes {
+        font-size: 4em;
+    }
+
+    .doubt {
+        font-size: 0.8em;
+        line-height: 1em;
+    }
+}
+
+@media(min-width: 960px) {
+    .grid {
+        height: 80vw;
+        width: 960px;
+        gap: 2em;
+    }
+
+    .clothes {
+        font-size: 6em;
+    }
+
+    .doubt {
+        font-size: 1em;
+        line-height: 1em;
+    }
+}
+
 /* .grid p {
     letter-spacing: 0.02em;
 }
