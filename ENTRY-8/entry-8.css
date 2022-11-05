@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --list-font: 'ABCAsfalt-Regular-Trial';
+    --font:'space grotesk';
+    --font-size: 60px;
+    font-family: var(--font);
+}
+
+@font-face {
+	font-family: 'ABCAsfalt-Regular-Trial';
+	src: url('ABCAsfalt-Regular-Trial.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.question {
+    font-family: var(--list-font);
+    background-color: black;
+    border-radius: 50%;
+    color: aliceblue;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.6em 1em;
+    line-height: 48px;
+    font-size: var(--font-size);
+    margin: 0 auto;
+}
+
+.list p {
+    border-radius: 50%;
+    font-size: 1.2em;
+    line-height: 1em;
+    text-align: center;
+    padding: 2em 1em;
+    font-weight: 500;
+}
+
+.list p:hover {
+    font-weight: bold;
+    font-size: 24px;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+    animation-delay: 1s;
+}
+
+.list p:nth-child(1) {
+    background-color:#d1e215;
+}
+
+.list p:nth-child(2) {
+    background-color:#ff4112;
+}
+
+.list p:nth-child(3) {
+    background-color:#1284ff;
+}
+
+.list p:nth-child(4) {
+    background-color:#ff52f6;
+}
+
+.list p:nth-child(5) {
+    background-color:#19c776;
+}
+
+.list p:nth-child(6) {
+    background-color:#c0c0ff;
+}
+
+@media (min-width: 768px) {
+    .list {
+        margin: 0 auto;
+    }
+
+    .list p {
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
