@@ -38,6 +38,9 @@
     text-align: center;
     padding: 2em 1em;
     font-weight: 500;
+    margin: 0 auto;
+    margin-top: -1em;
+    width: fit-content;
 }
 
 .list p:hover {
@@ -46,6 +49,8 @@
     transition-timing-function: ease-in-out;
     transition: 0.5s;
     animation-delay: 1s;
+    position: relative;
+    z-index: 1;
 }
 
 .list p:nth-child(1) {
@@ -72,13 +77,25 @@
     background-color:#c0c0ff;
 }
 
+footer {
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 0 auto;
+    max-width: 320px;
+}
+
 @media (min-width: 768px) {
     .list {
-        margin: 0 auto;
+        padding: 2em;
+        display: grid;
+        grid-auto-flow: dense;
+        grid-template-columns: 50% 50%;
+        margin: 1em auto;
+        max-width: 720px;
     }
 
     .list p {
         width: fit-content;
-        margin: 0 auto;
+        transform: scale(150%);
     }
 }
