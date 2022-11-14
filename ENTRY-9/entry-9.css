@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+	font-family: 'ABCAsfalt-Regular-Trial';
+	src: url('ABCAsfalt-Regular-Trial.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+
+:root {
+    --font: 'ABCAsfalt-Regular-Trial';
+}
+
+.clicks {
+    text-align: center;
+    border-radius: 50%;
+    padding: 1em;
+    font-family: 'space grotesk';
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.clicks:nth-child(2) {
+    background-color: #ff4a13;
+}
+
+.clicks :nth-child(3) {
+    background-color: #0fa162;
+}
+
+.clicks :nth-child(4) {
+    background-color: #0d9aff;
+}
+
+.clicks :nth-child(5) {
+    background-color: #cbe810;
+}
+
+.clicks :nth-child(6) {
+    background-color: #ff48e7;
+}
+
+.clicks :nth-child(7) {
+    background-color: #b1bbff;
+}
+
+.clicks :nth-child(8) {
+    background-color: #ff4a13;
+}
+
+.clicks :nth-child(9) {
+    background-color: #0fa162;
+}
+
+.clicks :nth-child(10) {
+    background-color: #0d9aff;
+}
+
+.clicks :nth-child(11) {
+    background-color: #cbe810;
+}
+
+.clicks :nth-child(12) {
+    background-color: #b1bbff;
+}
+
+.head {
+    background-color: white;
+    font-family: var(--font);
+    text-align: center;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    line-height: 115px;
+    margin-bottom: -0.8em;
+    border: solid 2px;
+    border-radius: 50%;
+    padding: 0.2em;
+}
