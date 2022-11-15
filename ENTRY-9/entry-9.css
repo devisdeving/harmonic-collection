@@ -17,7 +17,6 @@
 section {
     margin: 0 auto;
     margin-top: 8em;
-    border: 2px solid;
     border-radius: 20em;
     padding: 2em;
     padding-top: 6em;
@@ -26,6 +25,15 @@ section {
     max-width: 700px;
     display: grid;
     place-content: center;
+    color: #0d9aff;
+    background-color: #b1bbff;
+    transition: all 0.2s ease-in-out;
+}
+
+section.backchange {
+    background-color: #0d9aff;
+    color: #b1bbff;
+    transition: all 0.2s ease-in-out;
 }
 
 .head {
@@ -44,27 +52,28 @@ body {
     justify-content: center;
 }
 
-button.highlight {
-	background-color: #cbe810;
-	cursor: pointer;
-    border: none;
-    transition: all 1s ease-in-out;
-    transform: rotate(360deg);
-}
-
 button {
     background-color: #ff4a13;
     padding: 0.5em;
     border-radius: 50%;
 	cursor: pointer;
     border: none;
-    transition: all 1s ease-in-out;
-    transform: rotate(0deg);
+    color: #cbe810;
+    transition: all 0.2s ease-in-out;
     margin: 0 auto;
     transform: translateY(-16em);
 }
 
-.clicks :first-child.change {
+button.highlight {
+	background-color: #cbe810;
+	cursor: pointer;
+    color: #ff4a13;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    transform: rotate(0deg);
+}
+
+/* .clicks :first-child.change {
 background-color: #0fa162;
 transform: rotate(360deg);
 }
@@ -117,7 +126,7 @@ transform: rotate(360deg);
 .clicks :nth-child(11) {
     background-color: #b1bbff;
     display: none;
-}
+} */
 
 .clicks {
     border-radius: 50%;
@@ -130,28 +139,28 @@ transform: rotate(360deg);
     font-weight: bold;
 }
 
-@media (min-width: 768) {
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+@media (min-width: 768px) {
+section {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 6em;
+}
+
+    button {
+        transition: all 1s ease-in-out;
+        transform: rotate(360deg);
     }
 
-    section {
-        margin: 0 1em;
-        margin-top: 10em;
-        border: 2px solid;
-        border-radius: 20em;
-        padding: 2em;
-        width: fit-content;
-        padding-top: 4em;
-        text-align: center;
-        max-width: 700px;
-    }
-    
-    section {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    button.highlight {
+        background-color: #cbe810;
+        cursor: pointer;
+        color: #ff4a13;
+        border: none;
+        transition: all 1s ease-in-out;
+        transform: rotate(0deg);
+        transform: translateY(-16em);
     }
 }
