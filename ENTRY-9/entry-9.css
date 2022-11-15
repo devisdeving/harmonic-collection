@@ -15,17 +15,17 @@
 }
 
 section {
-    margin: 0 1em;
-    margin-top: 10em;
+    margin: 0 auto;
+    margin-top: 8em;
     border: 2px solid;
     border-radius: 20em;
     padding: 2em;
-    height: 300px;
+    padding-top: 6em;
+    height: 15em;
     text-align: center;
     max-width: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-content: center;
 }
 
 .head {
@@ -34,45 +34,39 @@ section {
     line-height: 90px;
 }
 
-section {
-	background-color: gold;
-	transition: all 1s ease-in-out;
-}
-
-section.highlight { 
-	background-color: #ff48e7;
-	transform: rotate(360deg);
-}
-
 body {
-	--base: 20px;
-
 	align-items: center;
-	display: flex;
-	flex-direction: column;
+    padding: 2em;
+    margin: 0 auto;
 	font-family: sans-serif;
-	justify-content: center;
-	padding: var(--base);
-	row-gap: var(--base);
+	place-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+button.highlight {
+	background-color: #cbe810;
+	cursor: pointer;
+    border: none;
+    transition: all 1s ease-in-out;
+    transform: rotate(360deg);
 }
 
 button {
-	background-color: deepskyblue;
-	border-radius: calc(var(--base) * 2);
-	cursor: pointer;
-    border: solid 2px;
-}
-
-.clicks :first-child {
     background-color: #ff4a13;
     padding: 0.5em;
     border-radius: 50%;
-    transition: all 0.2s ease-in-out;
+	cursor: pointer;
+    border: none;
+    transition: all 1s ease-in-out;
+    transform: rotate(0deg);
+    margin: 0 auto;
+    transform: translateY(-16em);
 }
 
 .clicks :first-child.change {
 background-color: #0fa162;
-transform: rotateX(360deg);
+transform: rotate(360deg);
 }
 
 .clicks :nth-child(2) {
@@ -141,6 +135,18 @@ transform: rotateX(360deg);
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    section {
+        margin: 0 1em;
+        margin-top: 10em;
+        border: 2px solid;
+        border-radius: 20em;
+        padding: 2em;
+        width: fit-content;
+        padding-top: 4em;
+        text-align: center;
+        max-width: 700px;
     }
     
     section {
