@@ -1,7 +1,6 @@
 function decider() {
    var op = document.querySelector("#selector");
    var text = document.querySelector("#result");
-   var calculate;
 
    if (op == "one") {
         text.style.display = "block";
@@ -12,6 +11,5 @@ function decider() {
       } else if (op == "four") {
         text.style.display = "block";
       }
-
    document.querySelector("#result").innerHTML = calculate;
 }
