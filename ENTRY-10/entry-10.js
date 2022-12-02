@@ -3,12 +3,6 @@ const wrapper = document.getElementById("wrapper");
 
 const rand = (min, max) => Math.floor(Math.random() * (max - min + 1) +min);
 
-const uniqueRand = (min, max, prev) => {
-  let next = prev;
-
-  while(prev === next)
-}
-
 const combinations = [
   { configuration: 1, roundness: 1 },
   { configuration: 1, roundness: 2 },
@@ -25,4 +19,4 @@ setInterval(() => {
   
   wrapper.dataset.configuration = combination.configuration;
   wrapper.dataset.roundness = combination.roundness;
-}, 1000);
+}, 2000);
