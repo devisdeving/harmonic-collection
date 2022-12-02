@@ -153,6 +153,7 @@ p:not(.caption) {
 
 h1 {
     position: absolute;
+    text-align: center;
     z-index: 1;
     display: flex;
     align-items: center;
@@ -167,6 +168,10 @@ h1 {
     max-width: fit-content;
     /* background-color: black; */
     color: rgb(0, 0, 0);
+}
+
+h3 {
+    font-weight: bold;
 }
 
 #gallery {
@@ -186,84 +191,52 @@ h1 {
 
 .tile:nth-child(1) {
     background-color: #ff4a13;
-    height: 14%;
-    top: 5%;
-    left: 5%;
 }
 
 .tile:nth-child(2) {
     background-color: #0fa162;
-    height: 24%;
-    top: 42%;
-    left: 12%;
 }
 
 .tile:nth-child(3) {
     background-color: #0d9aff;
-    height: 18%;
-    top: 12%;
-    left: 34%;
 }
 
 .tile:nth-child(4) {
     background-color: #cbe810;
-    height: 14%;
-    top: 45%;
-    left: 48%;
 }
 
 .tile:nth-child(5) {
     background-color: #ff48e7;
-    height: 14%;
-    top: 5%;
-    left: 5%;
 }
 
 .tile:nth-child(6) {
     background-color: #b1bbff;
-    height: 16%;
-    top: 8%;
-    left: 70%;
 }
 
 .tile:nth-child(7) {
     background-color: #ff4a13;
-    height: 24%;
-    top: 68%;
-    left: 8%;
 }
 
 .tile:nth-child(8) {
     background-color: #0fa162;
-    height: 16%;
-    top: 50%;
-    left: 74%;
 }
 
 .tile:nth-child(9) {
     background-color: #0d9aff;
-    height: 24%;
-    top: 72%;
-    left: 42%;
 }
 
 .tile:nth-child(10) {
     background-color: #cbe810;
-    height: 10%;
-    top: 84%;
-    left: 84%;
 }
 
 .tile:nth-child(11) {
     background-color: #ff48e7;
-    height: 16%;
-    top: 8%;
-    left: 70%;
 }
 
 a {
     text-decoration: none;
     font-family: 'space grotesk';
+    color: black;
 }
 
 @media (min-width: 960px) {
@@ -276,16 +249,36 @@ a {
     h1 {
         font-size: 10em;
         line-height: 150px;
+        margin: 2em;
+        margin-top: 7em;
+        letter-spacing: 0.2em;
     }
 
     #gallery {
         display:grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 25% 25% 25% 25%;
         gap: 3em;
         height: fit-content;
         height: fit-content;
         margin: 0 1em;
         position: absolute;
-        margin-top: 100em;
+        margin-top: 70em;
+        margin-left: -4em;
+    }
+
+    .tile {
+        font-size: 1.5em;
+    }
+
+    .tile:hover {
+        border-radius: 2em;
+        transition-timing-function: ease-in-out;
+        transition-duration: 60ms;
+        transition-delay: 20ms;
+        font-size: 1.8em;
+    }
+
+    p {
+        margin-top: -1em;
     }
 }
